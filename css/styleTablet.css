@@ -18,6 +18,16 @@
   height: 90%;
 }
 
+#floating-instagram {
+  top: 170px;
+
+}
+
+#floating-instagram:hover {
+
+  top: 172px;
+}
+
 #about-us__text {
   margin-top: 200px;
   padding: 20px;
