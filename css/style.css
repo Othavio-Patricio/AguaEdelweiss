@@ -288,7 +288,7 @@ footer {
 }
 
 #contato {
-  margin-left: 30vw;
+  margin-left: 28vw;
   color: white;
   font-weight: 200;
 }
@@ -300,4 +300,8 @@ footer {
 #instagram-logo {
   width: 40px;
   height: 40px;
+}
+
+#contato ul a li {
+  display: flex;
 }
