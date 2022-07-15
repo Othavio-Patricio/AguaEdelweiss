@@ -1,0 +1,17 @@
+.splide__arrow {
+  background: transparent;
+  width: 2vh;
+  height: 2vh;
+  border-radius: 0;
+}
+
+.splide__arrow svg {
+  fill: white;
+  height: 2vh;
+  width: 2vh;
+}
+
+.splide__pagination__page {
+  width: 0.6vh;
+  height: 0.6vh;
+}

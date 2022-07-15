@@ -1,0 +1,120 @@
+.btn {
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 17px;
+}
+
+.btn:focus {
+  box-shadow: 2px 2px 5px darkgray;
+  background-position: right;
+  color: white;
+}
+
+.header {
+  height: 80px;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.inner-header {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.inner-navbar {
+  width: 95%;
+}
+
+.logo {
+  float: none;
+}
+
+#logo-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-header {
+  display: none;
+}
+
+.nav-navbar {
+  display: none;
+}
+
+#about-us__text {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+#about-us__text p {
+  font-size: 17px;
+}
+
+#girls-drinking-water {
+  width: 200px;
+}
+
+#btn-box {
+  width: 100%;
+}
+
+#bottles-h2 {
+  margin-top: 20px;
+}
+
+#video-text-container {
+  width: 100vw;
+}
+
+#video-container {
+  display: none;
+}
+
+.splide {
+  width: 100vw;
+}
+
+.splide__slide {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  font-size: 17px;
+}
+
+#fonts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#font2 {
+  display: none;
+}
+
+footer {
+  height: 130px;
+}
+
+#footer-list {
+  display: none;
+}
+
+
+#instagram-logo {
+  width: 20px;
+  height: 20px;
+}
+
+#contato {
+  margin-left: 20px;
+  font-size: 13px;
+}

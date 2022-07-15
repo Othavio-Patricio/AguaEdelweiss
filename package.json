@@ -1,0 +1,25 @@
+{
+  "name": "aguaedelweiss",
+  "version": "1.0.0",
+  "description": "Tests for 'Água Edelweiss' website",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "eslint",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.0.2"
+  }
+}

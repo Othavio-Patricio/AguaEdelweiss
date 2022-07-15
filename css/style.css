@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  width: 300px;
+  height: 70px;
+  font-size: 27px;
+  border-radius: 25px;
+  background-image: linear-gradient(90deg, rgb(112, 112, 223), rgb(58, 58, 245), rgb(27, 27, 206), #04163e);
+  background-size: 500%;
+  color: white;
+  border: none;
+  transition: 2s;
+  font-family: 'Anek Latin', sans-serif;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 5px darkgray;
+  background-position: right;
+  color: white;
+}
+
+h2 {
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Anek Latin', sans-serif;
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+.header {
+  height: calc(2.7rem + 3.5vh);
+}
+
+.navbar {
+  height: calc(1.325rem + 2.5vh);
+  z-index: 1;
+}
+
+.inner-header {
+  width: 60vw;
+}
+
+.inner-navbar {
+  width: 55vw;
+}
+
+#header {
+  background-color: #04163e;
+  box-shadow: 3px 3px 10px black;
+  display: block;
+  position: fixed;
+  width: 100%;
+}
+
+#inner-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#logo-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.logo {
+  float: left;
+  cursor: pointer;
+}
+
+.logo-header {
+  height: 90%;
+}
+
+.logo-navbar {
+  height: 100%;
+}
+
+.none {
+display: none;
+}
+
+header nav ul {
+  display: flex;
+  width: auto;
+  height: 100%;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  display: flex;
+  height: 100%;
+  float: left;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-text {
+  margin-right: 1vw;
+  color: white;
+  display: table-cell;
+  font-weight: 200;
+}
+
+.nav-header {
+  font-size: calc(0.5rem + 1.5vh);
+}
+
+.nav-navbar {
+  font-size: calc(0.5rem + 1vh);
+}
+
+#about-us__text {
+  margin-top: 140px;
+  padding: 0 calc(5rem + 18vw);
+  margin-bottom: 10vw;
+  font-size: 25px;
+}
+
+#girls-drinking-water {
+float: right;
+width: 22vw;
+margin: 0 0  5px 10px;
+}
+
+#bottles-main {
+  background-image: linear-gradient(135deg, rgb(83, 83, 221), #04163e);
+  color: white;
+}
+
+#video-text-container {
+  display: flex;
+}
+
+#video-container {
+  float: left;
+  align-self: center;
+}
+
+#video {
+  margin-left: 10px;
+  padding-bottom: 35px;
+  width: 263px;
+  z-index: -1;
+}
+
+#bottles-h2 {
+  text-align: center;
+  margin-top: 1vw;
+}
+
+.splide {
+  width: 80vw;
+  z-index: 0;
+}
+
+.splide__list {
+  display: flex;
+  align-items: center;
+}
+
+.splide__slide {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 2vw;
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+ul li img {
+  height: calc(0.5rem + 1.4vh);
+}
+
+#fonts-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+}
+
+#fonts-section h2 {
+  margin-bottom: 50px;
+}
+
+#fonts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-box {
+  background-image: linear-gradient(135deg, rgb(83, 83, 221), #04163e);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.font-img {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 25px 0;
+  border: 2px solid white;
+}
+
+#name {
+  color: white;
+  position: absolute;
+  font-weight: 900;
+  font-size: 17px;
+  margin-top: 60px;
+  margin-left: -10px;
+}
+
+#mark {
+  border: 5px solid white;
+  background-color: rgb(224, 109, 109);
+  width: 35px;
+  height: 35px;
+  border-radius: 25px 25px 25px 0 ;
+  rotate: -45deg;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 120px;
+}
+
+.location-image {
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#space {
+  width: 70px;
+}
+
+#soon {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+  rotate: -45deg;
+  border: 5px solid white;
+  padding: 10px;
+  font-size: 35px;
+}
+
+footer {
+  height: 250px;
+  background-image: linear-gradient(135deg, rgb(83, 83, 221), #04163e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+#inner-footer__container {
+  display: flex;
+  height: 50%;
+  width: 90%;
+
+}
+
+#footer-logo {
+  height: auto;
+}
+
+#footer-list {
+  color: white;
+  margin-left: 80px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#contato {
+  margin-left: 30vw;
+  color: white;
+  font-weight: 200;
+}
+
+#instagram {
+  display: flex;
+}
+
+#instagram-logo {
+  width: 40px;
+  height: 40px;
+}
