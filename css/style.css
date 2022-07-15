@@ -135,6 +135,7 @@ header nav ul li {
   top: 150px;
   cursor: pointer;
   transition: 0.2s;
+  box-shadow: 2px 2px 5px black;
 }
 
 #floating-instagram:hover {
