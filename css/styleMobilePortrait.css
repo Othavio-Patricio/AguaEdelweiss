@@ -11,6 +11,10 @@
   color: white;
 }
 
+h2 {
+  font-size: 35px;
+}
+
 .header {
   height: 80px;
 }
@@ -51,7 +55,7 @@
 
 #about-us__text {
   margin-top: 100px;
-  padding: 20px;
+  padding: 15px;
 }
 
 #about-us__text p {
